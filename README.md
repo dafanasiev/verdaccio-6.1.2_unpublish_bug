@@ -1,5 +1,5 @@
 # Bug
-verdaccio `6.1.2` unable to unpublish package version `1.0.0` when `1.0.1` published.
+verdaccio `6.1.2` unable to unpublish package version `1.0.0` when `1.0.1` published (bug: https://github.com/verdaccio/verdaccio/issues/5214).
 
 # HowTo run
 ```sh
