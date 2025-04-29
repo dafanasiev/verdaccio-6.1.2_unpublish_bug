@@ -1,0 +1,26 @@
+storage: /tmp
+
+middlewares:
+  audit:
+    enabled: true
+
+log: { type: stdout, format: pretty, level: trace }
+
+packages:
+  "**":
+    access: $all
+    publish: $all
+    unpublish: $all
+    proxy: npmjs
+
+max_body_size: 256mb
+
+
+security:
+  api:
+    jwt:
+      sign:
+        expiresIn: 3650d
+  web:
+    sign:
+      expiresIn: 3650d
