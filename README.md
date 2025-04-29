@@ -1,6 +1,10 @@
 # Bug
 verdaccio `6.1.2` unable to unpublish package version `1.0.0` when `1.0.1` published (bug: https://github.com/verdaccio/verdaccio/issues/5214).
 
+# Debug logs and tcp dump
+* [Debug logs](./verdaccio_debug.log)
+* [TCP dump](./tcp_dump_decoded.pcapng) betwen `npm` and `verdaccio` (decode as `HTTP`)
+
 # HowTo run
 ```sh
 $> node --version

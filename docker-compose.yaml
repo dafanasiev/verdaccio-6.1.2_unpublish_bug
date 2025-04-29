@@ -5,6 +5,7 @@ services:
     restart: unless-stopped
     environment:
       - VERDACCIO_PORT=5010
+      - DEBUG=verdaccio:*
     ports:
       - "127.0.0.1:5010:5010/tcp"
     volumes:

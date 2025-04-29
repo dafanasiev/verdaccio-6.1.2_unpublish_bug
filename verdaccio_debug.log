@@ -1,0 +1,358 @@
+verdaccio  | 2025-04-29T16:22:23.796309948Z 2025-04-29T16:22:23.794Z verdaccio:config:parse parse config file /verdaccio/conf/config.yaml
+verdaccio  | 2025-04-29T16:22:23.796864340Z 2025-04-29T16:22:23.796Z verdaccio:config:config-utils check file exist /verdaccio/conf/config.yaml
+verdaccio  | 2025-04-29T16:22:23.797005065Z 2025-04-29T16:22:23.796Z verdaccio:config:config-utils file exist true
+verdaccio  | 2025-04-29T16:22:23.797453360Z 2025-04-29T16:22:23.797Z verdaccio:config:parse parsing config file: '/verdaccio/conf/config.yaml'
+verdaccio  | 2025-04-29T16:22:23.803750183Z 2025-04-29T16:22:23.803Z verdaccio:logger logging stdout enabled
+verdaccio  | 2025-04-29T16:22:23.804835642Z 2025-04-29T16:22:23.804Z verdaccio:logger setup logger
+verdaccio  | 2025-04-29T16:22:23.804927738Z 2025-04-29T16:22:23.804Z verdaccio:logger has prettifier? true
+verdaccio  | 2025-04-29T16:22:23.815710834Z 2025-04-29T16:22:23.814Z verdaccio:config config path: /verdaccio/conf/config.yaml
+verdaccio  | 2025-04-29T16:22:23.817243292Z 2025-04-29T16:22:23.816Z verdaccio:config set default user agent
+verdaccio  | 2025-04-29T16:22:23.819098591Z 2025-04-29T16:22:23.818Z verdaccio:config:utils package access { access: '$all', publish: '$all', unpublish: '$all', proxy: 'npmjs' } for ** 
+verdaccio  | 2025-04-29T16:22:23.821972090Z 2025-04-29T16:22:23.821Z verdaccio:plugin:loader:async 'storage' plugins found: 0
+verdaccio  | 2025-04-29T16:22:23.824641744Z 2025-04-29T16:22:23.824Z verdaccio:storage no custom storage found, loading default storage @verdaccio/local-storage
+verdaccio  | 2025-04-29T16:22:23.826219501Z 2025-04-29T16:22:23.826Z verdaccio:plugin:local-storage sync database started
+verdaccio  | 2025-04-29T16:22:23.827110614Z 2025-04-29T16:22:23.826Z verdaccio:plugin:local-storage sync folder '/tmp' created succeed
+verdaccio  | 2025-04-29T16:22:23.832486685Z 2025-04-29T16:22:23.832Z verdaccio:plugin:local-storage sync write succeed
+verdaccio  | 2025-04-29T16:22:23.833745714Z 2025-04-29T16:22:23.833Z verdaccio:config checking secret key init
+verdaccio  | 2025-04-29T16:22:23.833789448Z 2025-04-29T16:22:23.833Z verdaccio:config generating a new secret key
+verdaccio  | 2025-04-29T16:22:23.835004056Z 2025-04-29T16:22:23.833Z verdaccio:config generated a new secret key length 32
+verdaccio  | 2025-04-29T16:22:23.835028248Z 2025-04-29T16:22:23.834Z verdaccio:plugin:local-storage sync database started
+verdaccio  | 2025-04-29T16:22:23.835031641Z 2025-04-29T16:22:23.834Z verdaccio:plugin:local-storage sync folder '/tmp' created succeed
+verdaccio  | 2025-04-29T16:22:23.835517513Z 2025-04-29T16:22:23.835Z verdaccio:plugin:local-storage sync write succeed
+verdaccio  | 2025-04-29T16:22:23.836237798Z 2025-04-29T16:22:23.835Z verdaccio:storage initialization completed
+verdaccio  | 2025-04-29T16:22:23.838174017Z 2025-04-29T16:22:23.838Z verdaccio:plugin:loader:async 'authentication' plugins found: 0
+verdaccio  | 2025-04-29T16:22:23.838400701Z 2025-04-29T16:22:23.838Z verdaccio:auth auth plugins found 0
+verdaccio  | 2025-04-29T16:22:23.838988471Z 2025-04-29T16:22:23.838Z verdaccio:auth load default auth plugin
+verdaccio  | 2025-04-29T16:22:23.840161375Z 2025-04-29T16:22:23.839Z verdaccio:plugin:htpasswd password hash algorithm: bcrypt
+verdaccio  | 2025-04-29T16:22:23.840189677Z 2025-04-29T16:22:23.839Z verdaccio:plugin:htpasswd file: ./htpasswd
+verdaccio  | 2025-04-29T16:22:23.840194611Z 2025-04-29T16:22:23.839Z verdaccio:plugin:htpasswd config path: /verdaccio/conf/config.yaml
+verdaccio  | 2025-04-29T16:22:23.840213085Z 2025-04-29T16:22:23.839Z verdaccio:plugin:htpasswd htpasswd path: /verdaccio/conf/htpasswd
+verdaccio  | 2025-04-29T16:22:23.850070923Z 2025-04-29T16:22:23.849Z verdaccio:search:indexer reindexing search indexer
+verdaccio  | 2025-04-29T16:22:23.852334449Z 2025-04-29T16:22:23.851Z verdaccio:search:indexer no packages to index
+verdaccio  | 2025-04-29T16:22:23.852376704Z 2025-04-29T16:22:23.852Z verdaccio:search:indexer reindexed search indexer
+verdaccio  | 2025-04-29T16:22:23.852381727Z 2025-04-29T16:22:23.852Z verdaccio:plugin:local-storage get full list of packages (0) has been fetched
+verdaccio  | 2025-04-29T16:22:23.856571602Z 2025-04-29T16:22:23.856Z verdaccio:plugin:loader:async >>> looking for plugin 'audit'
+verdaccio  | 2025-04-29T16:22:23.856606813Z 2025-04-29T16:22:23.856Z verdaccio:plugin:loader:async is scoped plugin: false
+verdaccio  | 2025-04-29T16:22:23.856612253Z 2025-04-29T16:22:23.856Z verdaccio:plugin:loader:async plugin package name verdaccio-audit
+verdaccio  | 2025-04-29T16:22:23.857073355Z 2025-04-29T16:22:23.856Z verdaccio:plugin:loader:utils loading plugin verdaccio-audit
+verdaccio  | 2025-04-29T16:22:23.886446862Z 2025-04-29T16:22:23.886Z verdaccio:plugin:loader:async >>> plugin merge config enabled
+verdaccio  | 2025-04-29T16:22:23.887457823Z 2025-04-29T16:22:23.887Z verdaccio:plugin:loader:async plugin is ES6
+verdaccio  | 2025-04-29T16:22:23.887668393Z 2025-04-29T16:22:23.887Z verdaccio:plugin:loader:async >>> plugin is running and passed sanity check
+verdaccio  | 2025-04-29T16:22:23.887956972Z 2025-04-29T16:22:23.887Z verdaccio:plugin:loader:async 'middleware' plugins found: 1
+verdaccio  | 2025-04-29T16:22:23.889450038Z 2025-04-29T16:22:23.889Z verdaccio:auth jwt middleware
+verdaccio  | 2025-04-29T16:22:23.900139140Z 2025-04-29T16:22:23.899Z verdaccio:auth jwt middleware
+verdaccio  | 2025-04-29T16:22:23.900812953Z 2025-04-29T16:22:23.900Z verdaccio:web:render static path '/usr/local/lib/node_modules/verdaccio/node_modules/@verdaccio/ui-theme/static'
+verdaccio  | 2025-04-29T16:22:23.902195170Z 2025-04-29T16:22:23.901Z verdaccio:auth jwt middleware
+verdaccio  | 2025-04-29T16:22:23.916207463Z (node:8) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+verdaccio  | 2025-04-29T16:22:23.916315789Z (Use `node --trace-deprecation ...` to show where the warning was created)
+verdaccio  | 2025-04-29T16:22:23.991069191Z info --- config file  - /verdaccio/conf/config.yaml
+verdaccio  | 2025-04-29T16:22:23.993004278Z info --- plugin @verdaccio/local-storage successfully loaded (storage)
+verdaccio  | 2025-04-29T16:22:23.993123666Z info --- using htpasswd file: /verdaccio/conf/htpasswd
+verdaccio  | 2025-04-29T16:22:23.993134184Z info --- plugin verdaccio-htpasswd successfully loaded (authentication)
+verdaccio  | 2025-04-29T16:22:23.993136692Z info --- plugin verdaccio-audit successfully loaded (middleware)
+verdaccio  | 2025-04-29T16:22:23.993427226Z info --- plugin @verdaccio/ui-theme successfully loaded (theme)
+verdaccio  | 2025-04-29T16:22:23.993460408Z warn --- http address - http://0.0.0.0:5010/ - verdaccio/6.1.2
+
+
+verdaccio  | 2025-04-29T16:22:39.292143280Z 2025-04-29T16:22:39.291Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:39.292231772Z 2025-04-29T16:22:39.292Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:39.294181125Z 2025-04-29T16:22:39.293Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:39.294924184Z 2025-04-29T16:22:39.294Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:39.294967901Z 2025-04-29T16:22:39.294Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:39.294974641Z 2025-04-29T16:22:39.294Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:39.294978310Z 2025-04-29T16:22:39.294Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:39.294981748Z 2025-04-29T16:22:39.294Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:39.300369135Z 2025-04-29T16:22:39.300Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:39.317811351Z 2025-04-29T16:22:39.317Z verdaccio:middleware:encode encodeScopePackage: '/test' (unchanged)
+verdaccio  | 2025-04-29T16:22:39.319301694Z 2025-04-29T16:22:39.319Z verdaccio:middleware:allow check if user undefined can 'publish' package 'test' version undefined
+verdaccio  | 2025-04-29T16:22:39.321501503Z 2025-04-29T16:22:39.321Z verdaccio:auth allow publish for 'test' init | plugins: 2
+verdaccio  | 2025-04-29T16:22:39.321575983Z 2025-04-29T16:22:39.321Z verdaccio:auth allow publish for 'test' plugin does not implement allow_publish
+verdaccio  | 2025-04-29T16:22:39.322130859Z 2025-04-29T16:22:39.321Z verdaccio:auth:utils allow_action "publish": groups [ '$all', '$anonymous', '@all', '@anonymous' ]
+verdaccio  | 2025-04-29T16:22:39.322551813Z 2025-04-29T16:22:39.322Z verdaccio:auth:utils allow_action "publish": groupAccess [ '$all' ]
+verdaccio  | 2025-04-29T16:22:39.322796945Z 2025-04-29T16:22:39.322Z verdaccio:auth:utils package "undefined" has permission "true"
+verdaccio  | 2025-04-29T16:22:39.323429189Z 2025-04-29T16:22:39.323Z verdaccio:auth allowed publish for 'test'
+verdaccio  | 2025-04-29T16:22:39.323785844Z 2025-04-29T16:22:39.323Z verdaccio:middleware:allow user is allowed to 'publish'
+verdaccio  | 2025-04-29T16:22:39.324215858Z 2025-04-29T16:22:39.324Z verdaccio:publish publishing or updating a new version for 'test'
+verdaccio  | 2025-04-29T16:22:39.324518587Z 2025-04-29T16:22:39.324Z verdaccio:publish adding a new version for 'test'
+verdaccio  | 2025-04-29T16:22:39.325230169Z 2025-04-29T16:22:39.325Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.325375613Z 2025-04-29T16:22:39.325Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.325717050Z 2025-04-29T16:22:39.325Z verdaccio:plugin:local-storage:fs read a package 'test'
+verdaccio  | 2025-04-29T16:22:39.326023795Z 2025-04-29T16:22:39.325Z verdaccio:plugin:local-storage:fs reading the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.327737454Z 2025-04-29T16:22:39.327Z verdaccio:plugin:local-storage:fs error reading the file: '/tmp/test/package.json' with error [Error: ENOENT: no such file or directory, open '/tmp/test/package.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/tmp/test/package.json' }
+verdaccio  | 2025-04-29T16:22:39.327977962Z 2025-04-29T16:22:39.327Z verdaccio:plugin:local-storage:fs read storage file 'test' has failed with error [Error: ENOENT: no such file or directory, open '/tmp/test/package.json'] { errno: -2, code: 'ENOENT', syscall: 'open', path: '/tmp/test/package.json' }
+verdaccio  | 2025-04-29T16:22:39.329704854Z 2025-04-29T16:22:39.329Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.329742534Z 2025-04-29T16:22:39.329Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.329866378Z 2025-04-29T16:22:39.329Z verdaccio:plugin:local-storage:fs create a package 'test'
+verdaccio  | 2025-04-29T16:22:39.330063708Z 2025-04-29T16:22:39.330Z verdaccio:plugin:local-storage:fs  create a new file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.330705597Z 2025-04-29T16:22:39.330Z verdaccio:plugin:local-storage:fs error on write the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.333531911Z 2025-04-29T16:22:39.333Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.334634775Z 2025-04-29T16:22:39.334Z verdaccio:search:indexer adding item test to the indexer
+verdaccio  | 2025-04-29T16:22:39.336377472Z 2025-04-29T16:22:39.336Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.336491761Z 2025-04-29T16:22:39.336Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.336876188Z 2025-04-29T16:22:39.336Z verdaccio:plugin:local-storage:fs write a tarball for a package 'test-1.0.0.tgz'
+verdaccio  | 2025-04-29T16:22:39.340261867Z 2025-04-29T16:22:39.340Z verdaccio:plugin:local-storage:fs write a temporal name '/tmp/test/test-1.0.0.tgz.tmp-4284806741863927'
+verdaccio  | 2025-04-29T16:22:39.342134867Z 2025-04-29T16:22:39.342Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.342169794Z 2025-04-29T16:22:39.342Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.344313281Z 2025-04-29T16:22:39.344Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.344638861Z 2025-04-29T16:22:39.344Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.345059820Z 2025-04-29T16:22:39.344Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.345171372Z 2025-04-29T16:22:39.345Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.345689057Z 2025-04-29T16:22:39.345Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.346077026Z 2025-04-29T16:22:39.346Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.346857321Z 2025-04-29T16:22:39.346Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.346877832Z 2025-04-29T16:22:39.346Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.347713948Z 2025-04-29T16:22:39.347Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.347748624Z 2025-04-29T16:22:39.347Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.348512916Z 2025-04-29T16:22:39.348Z verdaccio:plugin:local-storage the private package 'test' has been added
+verdaccio  | 2025-04-29T16:22:39.349857736Z 2025-04-29T16:22:39.348Z verdaccio:plugin:local-storage sync database started
+verdaccio  | 2025-04-29T16:22:39.349881901Z 2025-04-29T16:22:39.348Z verdaccio:plugin:local-storage sync folder '/tmp' created succeed
+verdaccio  | 2025-04-29T16:22:39.349885544Z 2025-04-29T16:22:39.349Z verdaccio:plugin:local-storage sync write succeed
+verdaccio  | 2025-04-29T16:22:39.349888023Z 2025-04-29T16:22:39.349Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.349890612Z 2025-04-29T16:22:39.349Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.349892937Z 2025-04-29T16:22:39.349Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.350906017Z 2025-04-29T16:22:39.350Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.351843951Z 2025-04-29T16:22:39.351Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.351866495Z 2025-04-29T16:22:39.351Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.352896999Z 2025-04-29T16:22:39.352Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.353312610Z 2025-04-29T16:22:39.352Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.353409917Z 2025-04-29T16:22:39.353Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.353502350Z 2025-04-29T16:22:39.353Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.353812097Z 2025-04-29T16:22:39.353Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.354350577Z 2025-04-29T16:22:39.354Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.356954311Z 2025-04-29T16:22:39.355Z verdaccio:middleware:error error handler init
+verdaccio  | 2025-04-29T16:22:39.356980108Z 2025-04-29T16:22:39.355Z verdaccio:middleware:error no error to report, jump next layer
+verdaccio  | 2025-04-29T16:22:39.356984519Z 2025-04-29T16:22:39.355Z verdaccio:middleware:final set json type header support
+verdaccio  | 2025-04-29T16:22:39.356987233Z 2025-04-29T16:22:39.356Z verdaccio:middleware:final set etag header 46e608490830487b8f7825d78c9001cb
+verdaccio  | 2025-04-29T16:22:39.851234182Z 2025-04-29T16:22:39.851Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:39.851265920Z 2025-04-29T16:22:39.851Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:39.851598292Z 2025-04-29T16:22:39.851Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:39.851613122Z 2025-04-29T16:22:39.851Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:39.851617346Z 2025-04-29T16:22:39.851Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:39.851620232Z 2025-04-29T16:22:39.851Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:39.851623021Z 2025-04-29T16:22:39.851Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:39.851625492Z 2025-04-29T16:22:39.851Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:39.852941644Z 2025-04-29T16:22:39.852Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:39.853812150Z 2025-04-29T16:22:39.853Z verdaccio:middleware:encode encodeScopePackage: '/test' (unchanged)
+verdaccio  | 2025-04-29T16:22:39.854675435Z 2025-04-29T16:22:39.854Z verdaccio:middleware:allow check if user undefined can 'publish' package 'test' version undefined
+verdaccio  | 2025-04-29T16:22:39.855114899Z 2025-04-29T16:22:39.854Z verdaccio:auth allow publish for 'test' init | plugins: 2
+verdaccio  | 2025-04-29T16:22:39.856977487Z 2025-04-29T16:22:39.855Z verdaccio:auth allow publish for 'test' plugin does not implement allow_publish
+verdaccio  | 2025-04-29T16:22:39.857062719Z 2025-04-29T16:22:39.855Z verdaccio:auth:utils allow_action "publish": groups [ '$all', '$anonymous', '@all', '@anonymous' ]
+verdaccio  | 2025-04-29T16:22:39.857069269Z 2025-04-29T16:22:39.855Z verdaccio:auth:utils allow_action "publish": groupAccess [ '$all' ]
+verdaccio  | 2025-04-29T16:22:39.857071980Z 2025-04-29T16:22:39.855Z verdaccio:auth:utils package "undefined" has permission "true"
+verdaccio  | 2025-04-29T16:22:39.857074683Z 2025-04-29T16:22:39.855Z verdaccio:auth allowed publish for 'test'
+verdaccio  | 2025-04-29T16:22:39.857077721Z 2025-04-29T16:22:39.855Z verdaccio:middleware:allow user is allowed to 'publish'
+verdaccio  | 2025-04-29T16:22:39.857080058Z 2025-04-29T16:22:39.855Z verdaccio:publish publishing or updating a new version for 'test'
+verdaccio  | 2025-04-29T16:22:39.857082391Z 2025-04-29T16:22:39.855Z verdaccio:publish adding a new version for 'test'
+verdaccio  | 2025-04-29T16:22:39.857085230Z 2025-04-29T16:22:39.856Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.857087560Z 2025-04-29T16:22:39.856Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.857089870Z 2025-04-29T16:22:39.856Z verdaccio:plugin:local-storage:fs read a package 'test'
+verdaccio  | 2025-04-29T16:22:39.857092120Z 2025-04-29T16:22:39.856Z verdaccio:plugin:local-storage:fs reading the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.858506120Z 2025-04-29T16:22:39.858Z verdaccio:plugin:local-storage:fs read file '/tmp/test/package.json' succeed
+verdaccio  | 2025-04-29T16:22:39.858823578Z 2025-04-29T16:22:39.858Z verdaccio:plugin:local-storage:fs read storage file 'test' has succeed
+verdaccio  | 2025-04-29T16:22:39.867070816Z 2025-04-29T16:22:39.860Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.867126077Z 2025-04-29T16:22:39.865Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.867130402Z 2025-04-29T16:22:39.865Z verdaccio:plugin:local-storage:fs write a tarball for a package 'test-1.0.1.tgz'
+verdaccio  | 2025-04-29T16:22:39.867133071Z 2025-04-29T16:22:39.866Z verdaccio:plugin:local-storage:fs write a temporal name '/tmp/test/test-1.0.1.tgz.tmp-7658554621519056'
+verdaccio  | 2025-04-29T16:22:39.870824062Z 2025-04-29T16:22:39.870Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.872036159Z 2025-04-29T16:22:39.870Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.872061185Z 2025-04-29T16:22:39.871Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.872336817Z 2025-04-29T16:22:39.872Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.872696301Z 2025-04-29T16:22:39.872Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.873252321Z 2025-04-29T16:22:39.873Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.876105089Z 2025-04-29T16:22:39.873Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.876127769Z 2025-04-29T16:22:39.875Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.876469082Z 2025-04-29T16:22:39.876Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.878589531Z 2025-04-29T16:22:39.876Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.879113923Z 2025-04-29T16:22:39.878Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.883534315Z 2025-04-29T16:22:39.879Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.883563181Z 2025-04-29T16:22:39.882Z verdaccio:plugin:local-storage the private package 'test' was not added
+verdaccio  | 2025-04-29T16:22:39.883567057Z 2025-04-29T16:22:39.883Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.883569942Z 2025-04-29T16:22:39.883Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.883718998Z 2025-04-29T16:22:39.883Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.883974434Z 2025-04-29T16:22:39.883Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.885556890Z 2025-04-29T16:22:39.885Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.885584766Z 2025-04-29T16:22:39.885Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.889133342Z 2025-04-29T16:22:39.888Z verdaccio:plugin:local-storage:fs lock and read json for file: 'package.json'
+verdaccio  | 2025-04-29T16:22:39.889161209Z 2025-04-29T16:22:39.888Z verdaccio:plugin:local-storage:fs file: 'test' has been locked
+verdaccio  | 2025-04-29T16:22:39.889165236Z 2025-04-29T16:22:39.888Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:39.889167759Z 2025-04-29T16:22:39.888Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:39.889170136Z 2025-04-29T16:22:39.888Z verdaccio:plugin:local-storage:fs save a package 'test'
+verdaccio  | 2025-04-29T16:22:39.889559928Z 2025-04-29T16:22:39.889Z verdaccio:plugin:local-storage:fs creating a new file:: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:39.890647805Z 2025-04-29T16:22:39.890Z verdaccio:middleware:error error handler init
+verdaccio  | 2025-04-29T16:22:39.891098677Z 2025-04-29T16:22:39.891Z verdaccio:middleware:error no error to report, jump next layer
+verdaccio  | 2025-04-29T16:22:39.891539951Z 2025-04-29T16:22:39.891Z verdaccio:middleware:final set json type header support
+verdaccio  | 2025-04-29T16:22:39.892499039Z 2025-04-29T16:22:39.892Z verdaccio:middleware:final set etag header 46e608490830487b8f7825d78c9001cb
+verdaccio  | 2025-04-29T16:22:40.066198426Z info <-- 172.18.0.1 requested 'PUT /test'
+verdaccio  | 2025-04-29T16:22:40.066917395Z trace--- [middleware/allow][publish] allow for undefined
+verdaccio  | 2025-04-29T16:22:40.067423622Z trace--- [auth/allow_action]: user: undefined
+verdaccio  | 2025-04-29T16:22:40.068015902Z trace--- [auth/allow_action]: hasPermission? true for user: undefined, package: test
+verdaccio  | 2025-04-29T16:22:40.068069486Z trace--- auth/allow_action: access granted to: undefined
+verdaccio  | 2025-04-29T16:22:40.068827144Z trace--- [middleware/allow][publish] allowed for undefined
+verdaccio  | 2025-04-29T16:22:40.068852783Z http <-- 200, user: null(172.18.0.1), req: 'PUT /test', bytes: 1069/0
+verdaccio  | 2025-04-29T16:22:40.068857809Z http <-- 201, user: null(172.18.0.1), req: 'PUT /test', bytes: 1069/53
+verdaccio  | 2025-04-29T16:22:40.068860842Z info <-- 172.18.0.1 requested 'PUT /test'
+verdaccio  | 2025-04-29T16:22:40.068863483Z trace--- [middleware/allow][publish] allow for undefined
+verdaccio  | 2025-04-29T16:22:40.068866002Z trace--- [auth/allow_action]: user: undefined
+verdaccio  | 2025-04-29T16:22:40.068868632Z trace--- [auth/allow_action]: hasPermission? true for user: undefined, package: test
+verdaccio  | 2025-04-29T16:22:40.068871106Z trace--- auth/allow_action: access granted to: undefined
+verdaccio  | 2025-04-29T16:22:40.069030395Z trace--- [middleware/allow][publish] allowed for undefined
+verdaccio  | 2025-04-29T16:22:40.069039117Z http <-- 200, user: null(172.18.0.1), req: 'PUT /test', bytes: 1069/0
+verdaccio  | 2025-04-29T16:22:40.069186239Z http <-- 201, user: null(172.18.0.1), req: 'PUT /test', bytes: 1069/53
+verdaccio  | 2025-04-29T16:22:40.198728542Z 2025-04-29T16:22:40.198Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:40.198760706Z 2025-04-29T16:22:40.198Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:40.199401613Z 2025-04-29T16:22:40.198Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.199422934Z 2025-04-29T16:22:40.198Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.199427044Z 2025-04-29T16:22:40.198Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.199429793Z 2025-04-29T16:22:40.198Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.199432309Z 2025-04-29T16:22:40.198Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.199435056Z 2025-04-29T16:22:40.198Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.201905545Z 2025-04-29T16:22:40.201Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.201937060Z 2025-04-29T16:22:40.201Z verdaccio:middleware:encode encodeScopePackage: '/-/package/test/dist-tags' (unchanged)
+verdaccio  | 2025-04-29T16:22:40.201941719Z 2025-04-29T16:22:40.201Z verdaccio:middleware:allow check if user undefined can 'access' package 'test' version undefined
+verdaccio  | 2025-04-29T16:22:40.202192969Z 2025-04-29T16:22:40.202Z verdaccio:auth allow access for 'test'
+verdaccio  | 2025-04-29T16:22:40.203035987Z 2025-04-29T16:22:40.202Z verdaccio:auth:utils allow_action "access": groups [ '$all', '$anonymous', '@all', '@anonymous' ]
+verdaccio  | 2025-04-29T16:22:40.203135073Z 2025-04-29T16:22:40.202Z verdaccio:auth:utils allow_action "access": groupAccess [ '$all' ]
+verdaccio  | 2025-04-29T16:22:40.203250762Z 2025-04-29T16:22:40.203Z verdaccio:auth:utils package "undefined" has permission "true"
+verdaccio  | 2025-04-29T16:22:40.203462609Z 2025-04-29T16:22:40.203Z verdaccio:auth allowed access for 'test'
+verdaccio  | 2025-04-29T16:22:40.203593284Z 2025-04-29T16:22:40.203Z verdaccio:middleware:allow user is allowed to 'access'
+verdaccio  | 2025-04-29T16:22:40.204037892Z 2025-04-29T16:22:40.203Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:40.204596972Z 2025-04-29T16:22:40.204Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:40.204608175Z 2025-04-29T16:22:40.204Z verdaccio:plugin:local-storage:fs read a package 'test'
+verdaccio  | 2025-04-29T16:22:40.204611451Z 2025-04-29T16:22:40.204Z verdaccio:plugin:local-storage:fs reading the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:40.206874814Z 2025-04-29T16:22:40.206Z verdaccio:plugin:local-storage:fs read file '/tmp/test/package.json' succeed
+verdaccio  | 2025-04-29T16:22:40.206913198Z 2025-04-29T16:22:40.206Z verdaccio:plugin:local-storage:fs read storage file 'test' has succeed
+verdaccio  | 2025-04-29T16:22:40.206919216Z 2025-04-29T16:22:40.206Z verdaccio:middleware:error error handler init
+verdaccio  | 2025-04-29T16:22:40.206922059Z 2025-04-29T16:22:40.206Z verdaccio:middleware:error no error to report, jump next layer
+verdaccio  | 2025-04-29T16:22:40.206924604Z 2025-04-29T16:22:40.206Z verdaccio:middleware:final set json type header support
+verdaccio  | 2025-04-29T16:22:40.206990360Z 2025-04-29T16:22:40.206Z verdaccio:middleware:final set etag header f6ddc00c99244da19afb9e5206919498
+verdaccio  | 2025-04-29T16:22:40.326048496Z info <-- 172.18.0.1 requested 'GET /-/package/test/dist-tags'
+verdaccio  | 2025-04-29T16:22:40.326626685Z trace--- [middleware/allow][access] allow for undefined
+verdaccio  | 2025-04-29T16:22:40.326643015Z trace--- [auth/allow_action]: user: undefined
+verdaccio  | 2025-04-29T16:22:40.326647398Z trace--- [auth/allow_action]: hasPermission? true for user: undefined, package: test
+verdaccio  | 2025-04-29T16:22:40.326650448Z trace--- auth/allow_action: access granted to: undefined
+verdaccio  | 2025-04-29T16:22:40.326653094Z trace--- [middleware/allow][access] allowed for undefined
+verdaccio  | 2025-04-29T16:22:40.326655570Z http <-- 200, user: null(172.18.0.1), req: 'GET /-/package/test/dist-tags', bytes: 0/0
+verdaccio  | 2025-04-29T16:22:40.326658373Z http <-- 304, user: null(172.18.0.1), req: 'GET /-/package/test/dist-tags', bytes: 0/0
+verdaccio  | 2025-04-29T16:22:40.582466199Z 2025-04-29T16:22:40.582Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:40.582552025Z 2025-04-29T16:22:40.582Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:40.582589332Z 2025-04-29T16:22:40.582Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.582601838Z 2025-04-29T16:22:40.582Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.582639346Z 2025-04-29T16:22:40.582Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.582642947Z 2025-04-29T16:22:40.582Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.582645638Z 2025-04-29T16:22:40.582Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.582662762Z 2025-04-29T16:22:40.582Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.585082224Z 2025-04-29T16:22:40.584Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.585154798Z 2025-04-29T16:22:40.584Z verdaccio:middleware:encode encodeScopePackage: '/test?write=true' (unchanged)
+verdaccio  | 2025-04-29T16:22:40.585163233Z 2025-04-29T16:22:40.584Z verdaccio:middleware:allow check if user undefined can 'access' package 'test' version undefined
+verdaccio  | 2025-04-29T16:22:40.585166202Z 2025-04-29T16:22:40.584Z verdaccio:auth allow access for 'test'
+verdaccio  | 2025-04-29T16:22:40.585183189Z 2025-04-29T16:22:40.585Z verdaccio:auth:utils allow_action "access": groups [ '$all', '$anonymous', '@all', '@anonymous' ]
+verdaccio  | 2025-04-29T16:22:40.585276928Z 2025-04-29T16:22:40.585Z verdaccio:auth:utils allow_action "access": groupAccess [ '$all' ]
+verdaccio  | 2025-04-29T16:22:40.585419843Z 2025-04-29T16:22:40.585Z verdaccio:auth:utils package "undefined" has permission "true"
+verdaccio  | 2025-04-29T16:22:40.585618653Z 2025-04-29T16:22:40.585Z verdaccio:auth allowed access for 'test'
+verdaccio  | 2025-04-29T16:22:40.585679697Z 2025-04-29T16:22:40.585Z verdaccio:middleware:allow user is allowed to 'access'
+verdaccio  | 2025-04-29T16:22:40.586168560Z 2025-04-29T16:22:40.586Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:40.586244037Z 2025-04-29T16:22:40.586Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:40.586330959Z 2025-04-29T16:22:40.586Z verdaccio:plugin:local-storage:fs read a package 'test'
+verdaccio  | 2025-04-29T16:22:40.586366085Z 2025-04-29T16:22:40.586Z verdaccio:plugin:local-storage:fs reading the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:40.587190295Z 2025-04-29T16:22:40.587Z verdaccio:plugin:local-storage:fs read file '/tmp/test/package.json' succeed
+verdaccio  | 2025-04-29T16:22:40.587383495Z 2025-04-29T16:22:40.587Z verdaccio:plugin:local-storage:fs read storage file 'test' has succeed
+verdaccio  | 2025-04-29T16:22:40.589520187Z 2025-04-29T16:22:40.588Z verdaccio:core:tarball tarball name 'test-1.0.0.tgz'
+verdaccio  | 2025-04-29T16:22:40.594529689Z 2025-04-29T16:22:40.594Z verdaccio:core:url req protocol: undefined
+verdaccio  | 2025-04-29T16:22:40.595051274Z 2025-04-29T16:22:40.594Z verdaccio:core:url combined protocol 'http'
+verdaccio  | 2025-04-29T16:22:40.597804576Z 2025-04-29T16:22:40.594Z verdaccio:core:url combined host 'localhost:5010'
+verdaccio  | 2025-04-29T16:22:40.597844832Z 2025-04-29T16:22:40.594Z verdaccio:core:url combined prefix ''
+verdaccio  | 2025-04-29T16:22:40.597850419Z 2025-04-29T16:22:40.595Z verdaccio:core:url combined url 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.597853243Z 2025-04-29T16:22:40.595Z verdaccio:core:url public url by request 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.597856066Z 2025-04-29T16:22:40.595Z verdaccio:core:tarball tarball name 'test-1.0.1.tgz'
+verdaccio  | 2025-04-29T16:22:40.597869144Z 2025-04-29T16:22:40.596Z verdaccio:core:url req protocol: undefined
+verdaccio  | 2025-04-29T16:22:40.597893530Z 2025-04-29T16:22:40.596Z verdaccio:core:url combined protocol 'http'
+verdaccio  | 2025-04-29T16:22:40.597896913Z 2025-04-29T16:22:40.596Z verdaccio:core:url combined host 'localhost:5010'
+verdaccio  | 2025-04-29T16:22:40.597899245Z 2025-04-29T16:22:40.596Z verdaccio:core:url combined prefix ''
+verdaccio  | 2025-04-29T16:22:40.597911488Z 2025-04-29T16:22:40.596Z verdaccio:core:url combined url 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.597913852Z 2025-04-29T16:22:40.596Z verdaccio:core:url public url by request 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.597916246Z 2025-04-29T16:22:40.597Z verdaccio:middleware:error error handler init
+verdaccio  | 2025-04-29T16:22:40.597918741Z 2025-04-29T16:22:40.597Z verdaccio:middleware:error no error to report, jump next layer
+verdaccio  | 2025-04-29T16:22:40.599707117Z 2025-04-29T16:22:40.599Z verdaccio:middleware:final set etag header c4ac3de1253eb57cec0c20b4d210829d
+verdaccio  | 2025-04-29T16:22:40.634857906Z 2025-04-29T16:22:40.634Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:40.634920240Z 2025-04-29T16:22:40.634Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:40.634927688Z 2025-04-29T16:22:40.634Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.634930878Z 2025-04-29T16:22:40.634Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.634934118Z 2025-04-29T16:22:40.634Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.634937407Z 2025-04-29T16:22:40.634Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.634940238Z 2025-04-29T16:22:40.634Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.634944836Z 2025-04-29T16:22:40.634Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.637284314Z 2025-04-29T16:22:40.637Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.637723584Z 2025-04-29T16:22:40.637Z verdaccio:middleware:encode encodeScopePackage: '/test?write=true' (unchanged)
+verdaccio  | 2025-04-29T16:22:40.638196051Z 2025-04-29T16:22:40.638Z verdaccio:middleware:allow check if user undefined can 'access' package 'test' version undefined
+verdaccio  | 2025-04-29T16:22:40.638845553Z 2025-04-29T16:22:40.638Z verdaccio:auth allow access for 'test'
+verdaccio  | 2025-04-29T16:22:40.639446708Z 2025-04-29T16:22:40.639Z verdaccio:auth:utils allow_action "access": groups [ '$all', '$anonymous', '@all', '@anonymous' ]
+verdaccio  | 2025-04-29T16:22:40.639469594Z 2025-04-29T16:22:40.639Z verdaccio:auth:utils allow_action "access": groupAccess [ '$all' ]
+verdaccio  | 2025-04-29T16:22:40.640891254Z 2025-04-29T16:22:40.639Z verdaccio:auth:utils package "undefined" has permission "true"
+verdaccio  | 2025-04-29T16:22:40.640947549Z 2025-04-29T16:22:40.639Z verdaccio:auth allowed access for 'test'
+verdaccio  | 2025-04-29T16:22:40.640953958Z 2025-04-29T16:22:40.639Z verdaccio:middleware:allow user is allowed to 'access'
+verdaccio  | 2025-04-29T16:22:40.641281763Z 2025-04-29T16:22:40.640Z verdaccio:plugin:local-storage storage path selected:  /tmp
+verdaccio  | 2025-04-29T16:22:40.641317592Z 2025-04-29T16:22:40.640Z verdaccio:plugin:local-storage storage absolute path:  /tmp/test
+verdaccio  | 2025-04-29T16:22:40.641323082Z 2025-04-29T16:22:40.640Z verdaccio:plugin:local-storage:fs read a package 'test'
+verdaccio  | 2025-04-29T16:22:40.641439807Z 2025-04-29T16:22:40.640Z verdaccio:plugin:local-storage:fs reading the file: '/tmp/test/package.json'
+verdaccio  | 2025-04-29T16:22:40.643486569Z 2025-04-29T16:22:40.643Z verdaccio:plugin:local-storage:fs read file '/tmp/test/package.json' succeed
+verdaccio  | 2025-04-29T16:22:40.644070497Z 2025-04-29T16:22:40.643Z verdaccio:plugin:local-storage:fs read storage file 'test' has succeed
+verdaccio  | 2025-04-29T16:22:40.644663923Z 2025-04-29T16:22:40.644Z verdaccio:core:tarball tarball name 'test-1.0.0.tgz'
+verdaccio  | 2025-04-29T16:22:40.645165947Z 2025-04-29T16:22:40.644Z verdaccio:core:url req protocol: undefined
+verdaccio  | 2025-04-29T16:22:40.645462707Z 2025-04-29T16:22:40.645Z verdaccio:core:url combined protocol 'http'
+verdaccio  | 2025-04-29T16:22:40.647077122Z 2025-04-29T16:22:40.645Z verdaccio:core:url combined host 'localhost:5010'
+verdaccio  | 2025-04-29T16:22:40.647187229Z 2025-04-29T16:22:40.645Z verdaccio:core:url combined prefix ''
+verdaccio  | 2025-04-29T16:22:40.647197774Z 2025-04-29T16:22:40.645Z verdaccio:core:url combined url 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.647200508Z 2025-04-29T16:22:40.645Z verdaccio:core:url public url by request 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.647202948Z 2025-04-29T16:22:40.646Z verdaccio:core:tarball tarball name 'test-1.0.1.tgz'
+verdaccio  | 2025-04-29T16:22:40.647205766Z 2025-04-29T16:22:40.646Z verdaccio:core:url req protocol: undefined
+verdaccio  | 2025-04-29T16:22:40.647208203Z 2025-04-29T16:22:40.646Z verdaccio:core:url combined protocol 'http'
+verdaccio  | 2025-04-29T16:22:40.647210842Z 2025-04-29T16:22:40.646Z verdaccio:core:url combined host 'localhost:5010'
+verdaccio  | 2025-04-29T16:22:40.647213081Z 2025-04-29T16:22:40.646Z verdaccio:core:url combined prefix ''
+verdaccio  | 2025-04-29T16:22:40.647215290Z 2025-04-29T16:22:40.646Z verdaccio:core:url combined url 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.647219230Z 2025-04-29T16:22:40.646Z verdaccio:core:url public url by request 'http://localhost:5010/'
+verdaccio  | 2025-04-29T16:22:40.647755159Z 2025-04-29T16:22:40.646Z verdaccio:middleware:error error handler init
+verdaccio  | 2025-04-29T16:22:40.648322305Z 2025-04-29T16:22:40.648Z verdaccio:middleware:error no error to report, jump next layer
+verdaccio  | 2025-04-29T16:22:40.649163453Z 2025-04-29T16:22:40.648Z verdaccio:middleware:final set etag header cba09f50dcbe6d898ab6aa0f04aad726
+verdaccio  | 2025-04-29T16:22:40.667533017Z 2025-04-29T16:22:40.667Z verdaccio:middleware:error error report middleware start
+verdaccio  | 2025-04-29T16:22:40.667597000Z 2025-04-29T16:22:40.667Z verdaccio:middleware:error error report middleware end (skip next layer) next()
+verdaccio  | 2025-04-29T16:22:40.667813673Z 2025-04-29T16:22:40.667Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.667860188Z 2025-04-29T16:22:40.667Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.667863642Z 2025-04-29T16:22:40.667Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.667874308Z 2025-04-29T16:22:40.667Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.667896473Z 2025-04-29T16:22:40.667Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.668140404Z 2025-04-29T16:22:40.667Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.669692149Z 2025-04-29T16:22:40.669Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.670501373Z 2025-04-29T16:22:40.670Z verdaccio:middleware:encode encodeScopePackage: '/test/-rev/6-8a0b3189ce0c3911' (unchanged)
+verdaccio  | 2025-04-29T16:22:40.670700387Z 2025-04-29T16:22:40.670Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.670709416Z 2025-04-29T16:22:40.670Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.670832014Z 2025-04-29T16:22:40.670Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.670975543Z 2025-04-29T16:22:40.670Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.670985327Z 2025-04-29T16:22:40.670Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.670989580Z 2025-04-29T16:22:40.670Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.672707758Z 2025-04-29T16:22:40.672Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.675804960Z 2025-04-29T16:22:40.674Z verdaccio:auth api middleware using JWT auth token
+verdaccio  | 2025-04-29T16:22:40.675878300Z 2025-04-29T16:22:40.675Z verdaccio:auth handle JWT api middleware
+verdaccio  | 2025-04-29T16:22:40.675883428Z 2025-04-29T16:22:40.675Z verdaccio:auth handle jwt token
+verdaccio  | 2025-04-29T16:22:40.675886163Z 2025-04-29T16:22:40.675Z verdaccio:auth:utils getMiddlewareCredentials init
+verdaccio  | 2025-04-29T16:22:40.675888483Z 2025-04-29T16:22:40.675Z verdaccio:auth:utils is jwt
+verdaccio  | 2025-04-29T16:22:40.675890753Z 2025-04-29T16:22:40.675Z verdaccio:auth:token:jwt verifying jwt token
+verdaccio  | 2025-04-29T16:22:40.676278446Z 2025-04-29T16:22:40.676Z verdaccio:auth generating a remote user
+verdaccio  | 2025-04-29T16:22:40.840039477Z info <-- 172.18.0.1 requested 'GET /test?write=true'
+verdaccio  | 2025-04-29T16:22:40.840324485Z trace--- [middleware/allow][access] allow for undefined
+verdaccio  | 2025-04-29T16:22:40.841656611Z trace--- [auth/allow_action]: user: undefined
+verdaccio  | 2025-04-29T16:22:40.842217228Z trace--- [auth/allow_action]: hasPermission? true for user: undefined, package: test
+verdaccio  | 2025-04-29T16:22:40.842228653Z trace--- auth/allow_action: access granted to: undefined
+verdaccio  | 2025-04-29T16:22:40.842234938Z trace--- [middleware/allow][access] allowed for undefined
+verdaccio  | 2025-04-29T16:22:40.842240611Z http <-- 200, user: null(172.18.0.1), req: 'GET /test?write=true', bytes: 0/0
+verdaccio  | 2025-04-29T16:22:40.842253187Z http <-- 200, user: null(172.18.0.1), req: 'GET /test?write=true', bytes: 0/499
+verdaccio  | 2025-04-29T16:22:40.843313265Z info <-- 172.18.0.1 requested 'GET /test?write=true'
+verdaccio  | 2025-04-29T16:22:40.843357513Z trace--- [middleware/allow][access] allow for undefined
+verdaccio  | 2025-04-29T16:22:40.843366769Z trace--- [auth/allow_action]: user: undefined
+verdaccio  | 2025-04-29T16:22:40.843373109Z trace--- [auth/allow_action]: hasPermission? true for user: undefined, package: test
+verdaccio  | 2025-04-29T16:22:40.844082226Z trace--- auth/allow_action: access granted to: undefined
+verdaccio  | 2025-04-29T16:22:40.844628172Z trace--- [middleware/allow][access] allowed for undefined
+verdaccio  | 2025-04-29T16:22:40.845164030Z http <-- 200, user: null(172.18.0.1), req: 'GET /test?write=true', bytes: 0/0
+verdaccio  | 2025-04-29T16:22:40.845564218Z http <-- 200, user: null(172.18.0.1), req: 'GET /test?write=true', bytes: 0/721
+verdaccio  | 2025-04-29T16:22:40.845579804Z info <-- 172.18.0.1 requested 'PUT /test/-rev/6-8a0b3189ce0c3911'
+verdaccio  | 2025-04-29T16:22:40.845585887Z http <-- 200, user: null(172.18.0.1), req: 'PUT /test/-rev/6-8a0b3189ce0c3911', bytes: 837/0
+verdaccio  | 2025-04-29T16:22:40.845591384Z http <-- 404, user: null(172.18.0.1), req: 'PUT /test/-rev/6-8a0b3189ce0c3911', bytes: 837/167
